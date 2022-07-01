@@ -1,0 +1,30 @@
+html,
+body {
+  background: rgb(44,46,68);
+  background: linear-gradient(180deg, rgba(44,46,68,1) 0%, rgb(71, 74, 112) 35%);
+
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h3 {
+  color: #EEF1F6;
+  font-style: italic;
+  font-size: 32px;
+}
+
+button, h6, span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}

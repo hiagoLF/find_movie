@@ -1,0 +1,33 @@
+.container {
+    background-color: #2F384F;
+    padding: 11px;
+    cursor: pointer;
+    transition-duration: 150ms;
+
+    h6 {
+        margin: 0;
+        color: #EEF1F6;
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    span {
+        color: #A2ACBD;
+        font-size: 14px;
+    }
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 17px;
+
+        span {
+            margin-right: 5px;
+        }
+    }
+
+    &:hover{
+        opacity: 0.7;
+    }
+}
